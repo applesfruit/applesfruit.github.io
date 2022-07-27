@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>applesfruit - Home</title>
     <link rel="stylesheet" href="./style.css">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/kute.js@2.2.0/dist/kute.min.js"></script>
 </head>
 <body>
     <div class="container">
@@ -15,7 +17,6 @@
 
                 <ul>
                     <li><a href="">Home</a></li>
-                    <li><a href="/pages/projects/">Projects</a></li>
                     <li><a href="/pages/commissions/">Commissions</a></li>
                     <li><a href="/pages/about-me/">About Me</a></li>
                 </ul>
@@ -28,15 +29,38 @@
 
             <div id="hello">
                 <h1>Hey! My name is <a id="l">applesfruit</a>.</h1>
-                <br>
-                <h1>I make ...</h2>
             </div>
+
+            <h1 class="placeholder">I am working on <strong id="placeholder"></strong></h1>
+                <script>
+                    var id = document.getElementById("placeholder");
+                    var type = new Typewriter(id, {
+                        delay: 100,
+                        loop: true,
+                    });
+
+                    type
+                        .pauseFor(2500)
+                        .typeString("EZStats.")
+                        .pauseFor(2500)
+                        .deleteChars(8)
+                        .pauseFor(1000)
+                        .typeString("Reflex Hosting.")
+                        .pauseFor(2500)
+                        .deleteChars(15)
+                        .pauseFor(1000)
+                        .typeString("Arctic Development.")
+                        .pauseFor(2500)
+                        .deleteChars(19)
+                        .pauseFor(1000)
+                        .start();
+                </script>
 
             <div class="desc">
 
                 <br>
                 <p>I am a self-taught developer. I work with many languages like Java, Kotlin, NodeJS, Python, C#, C++, and C.</p>
-                <p>I am currently working on a couple projects, you can look at them by clicking <a href="/pages/projects/">here</a>.</p>
+                <p>I am currently working on a couple projects, you can look at them by clicking <a href="https://github.com/applesfruit" target="_blank">here</a>.</p>
                 <br>
                 <a href="/pages/about-me/" id="abt">Learn more about me!</a>
                 <br><br>

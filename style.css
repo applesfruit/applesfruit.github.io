@@ -70,7 +70,6 @@ nav ul li a:hover {
 #hello h1
 {
     font-size: 60px;
-    text-decoration: underline;
     color: #fff;
     transition-duration: 1s;
 }
@@ -78,8 +77,14 @@ nav ul li a:hover {
 #hello a
 {
     font-size: 60px;
-    text-decoration: underline;
     color: #fff;
+    transition-duration: 1s;
+}
+
+.placeholder {
+    font-size: 60px;
+    color: #fff;
+    position: relative;
     transition-duration: 1s;
 }
 
