@@ -80,14 +80,6 @@ nav ul li a:hover {
     color: #fff;
     transition-duration: 1s;
 }
-
-.placeholder {
-    font-size: 60px;
-    color: #fff;
-    position: relative;
-    transition-duration: 1s;
-}
-
 .desc
 {
     font-size: 30px;
