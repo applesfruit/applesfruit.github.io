@@ -108,6 +108,7 @@ nav ul li a:hover {
 @keyframes fadeIn {
     0% {
         opacity: 0;
+        background-color: var(--back);
     }
 
     100% {
