@@ -74,6 +74,13 @@ nav ul li a:hover {
     transition-duration: 1s;
 }
 
+#hello h2
+{
+    font-size: 45px;
+    color: #fff;
+    transition-duration: 1s;
+}
+
 #hello a
 {
     font-size: 60px;
